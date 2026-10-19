@@ -3,16 +3,31 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Portfólio de Nicolas Moreira — estudante de Engenharia de Software focado em automação, integrações e agentes de IA.">
 <title>Nicolas Moreira — Portfólio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+<nav class="nav" aria-label="Seções da página">
+  <a href="#sobre">Sobre</a>
+  <a href="#projetos">Projetos</a>
+  <a href="#skills">Skills</a>
+  <a href="#contato">Contato</a>
+</nav>
+
 <header class="hero">
-  <div class="tag">Estudante de Engenharia de Software</div>
+  <p class="tag">Estudante de Engenharia de Software</p>
   <h1>Construindo automações e integrações com código.</h1>
   <p>Em transição de carreira para tecnologia, estudando na FIAP e trabalhando como estagiário em uma plataforma de agentes de IA. Foco em automação, integrações e agentes.</p>
 </header>
+
+<main id="conteudo">
 
 <section id="sobre" class="reveal">
   <h2>Sobre</h2>
@@ -21,42 +36,46 @@
 
 <section id="projetos" class="reveal">
   <h2>Projetos</h2>
-  <div class="projetos">
-    <div class="projeto">
+  <ul class="projetos">
+    <li class="projeto">
       <h3>Lista de filmes (CRUD)</h3>
       <p>Aplicação para cadastrar, editar e remover filmes de uma watchlist, consultando três ferramentas de IA diferentes durante o desenvolvimento.</p>
-      <div class="stack">HTML · CSS · JavaScript</div>
-    </div>
-    <div class="projeto">
+      <p class="stack">HTML · CSS · JavaScript</p>
+    </li>
+    <li class="projeto">
       <h3>Layout com CSS Grid</h3>
       <p>Página de duas seções construída com grid-template-areas, auto-fit/minmax() e variáveis CSS, com responsividade por media queries.</p>
-      <div class="stack">HTML · CSS Grid</div>
-    </div>
-    <div class="projeto">
+      <p class="stack">HTML · CSS Grid</p>
+    </li>
+    <li class="projeto">
       <h3>Modelagem de throughput de API</h3>
       <p>Notebook analisando desempenho de uma API com ajuste polinomial por mínimos quadrados, análise de derivadas e otimização.</p>
-      <div class="stack">Python · Jupyter Notebook</div>
-    </div>
-  </div>
+      <p class="stack">Python · Jupyter Notebook</p>
+    </li>
+  </ul>
 </section>
 
 <section id="skills" class="reveal">
   <h2>Skills</h2>
-  <div class="skills">
-    <span class="skill">HTML / CSS / JS</span>
-    <span class="skill">Python</span>
-    <span class="skill">Git / GitHub</span>
-    <span class="skill">Automação de processos</span>
-    <span class="skill">Integrações de API</span>
-    <span class="skill">Agentes de IA</span>
-  </div>
+  <ul class="skills">
+    <li class="skill">HTML / CSS / JS</li>
+    <li class="skill">Python</li>
+    <li class="skill">Git / GitHub</li>
+    <li class="skill">Automação de processos</li>
+    <li class="skill">Integrações de API</li>
+    <li class="skill">Agentes de IA</li>
+  </ul>
 </section>
 
 <section id="contato" class="reveal">
   <h2>Contato</h2>
-  <a href="https://github.com/nicolasmoreira1" target="_blank">github.com/nicolasmoreira1</a><br>
-  <a href="mailto:colasmoreira@gmail.com">colasmoreira@gmail.com</a>
+  <ul class="contato">
+    <li><a href="https://github.com/nicolasmoreira1" target="_blank" rel="noopener noreferrer">github.com/nicolasmoreira1</a></li>
+    <li><a href="mailto:colasmoreira@gmail.com">colasmoreira@gmail.com</a></li>
+  </ul>
 </section>
+
+</main>
 
 <footer>Feito com HTML, CSS e JS.</footer>
 
