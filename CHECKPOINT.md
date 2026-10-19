@@ -73,8 +73,8 @@ implementa a animação de "revelar ao rolar a página" nas seções.
 
 ## 5. Resultado final
 
-- Repositório: *(link do seu repositório no GitHub, após subir os arquivos)*
-- Deploy: *(link gerado pelo GitHub Pages, em Settings → Pages, após ativar)*
+- Repositório: github.com/nicolasmoreira1/CP6-portifolio
+- Deploy: https://nicolasmoreira1.github.io/CP6-portifolio/
 
 **Reflexão:** A página ficou dentro do que eu planejei: visual escuro e minimalista,
 com poucas cores e foco no conteúdo em vez de decoração. A animação de scroll
